@@ -46,4 +46,21 @@ a{
     width: 1900px;
 }
 
-/*-------------------BANNER-------------------*/
+/*-------------------HARMONIA-------------------*/
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.harmonias{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.harmonias-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
