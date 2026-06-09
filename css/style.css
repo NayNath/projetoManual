@@ -6,6 +6,8 @@ body{
     background-color: rgb(195, 113, 113);
     color: rgb(253, 254, 255);
 }
+
+/*-------------------HEADER-------------------*/
 header{
     background-color: rgb(0, 0, 0);
     height: 120px;
@@ -35,6 +37,7 @@ a{
     color: rgb(253, 254, 255);
 }
 
+/*-------------------BANNER-------------------*/
 .banner{
     display: flex;
     justify-content: center;
@@ -42,3 +45,5 @@ a{
 .banner-img{
     width: 1900px;
 }
+
+/*-------------------BANNER-------------------*/
