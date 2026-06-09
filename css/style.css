@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(199, 182, 182);
+    color: rgb(253, 254, 255);
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    top: 0px;
+    position: sticky;
+
+}
+div.logo{
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 50px;
+}
+.logo-img{
+    height: 100px;
+}
+ul{
+    display: inline-block;
+    margin-left: 500px;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 35px;
+}
+a{
+    color: rgb(253, 254, 255);
+}
