@@ -3,11 +3,11 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(195, 113, 113);
+    background-color: rgb(14, 14, 14);
     color: rgb(253, 254, 255);
 }
 
-/*-------------------HEADER-------------------*/
+/*-------------------------- -------------------HEADER------------------- --------------------------*/
 header{
     background-color: rgb(0, 0, 0);
     height: 120px;
@@ -37,6 +37,19 @@ a{
     color: rgb(253, 254, 255);
 }
 
+/*-------------------------- -------------------MAIN------------------- --------------------------*/
+
+main{
+    height: 3000px;
+    margin-bottom: 30px;
+}
+
+.linha{
+    background-color: aliceblue;
+    height: 1px;
+    width: auto;
+}
+
 /*-------------------BANNER-------------------*/
 .banner{
     display: flex;
@@ -47,20 +60,55 @@ a{
 }
 
 /*-------------------HARMONIA-------------------*/
-h1{
-    text-align: center;
-    margin-top: 15px;
-}
 .harmonias{
-    
-    display: flex;
-    justify-content: center;
-    
+    margin-top: 100px;
+    height: 300px;
 }
-
-
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.harmonias-item{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content:space-around;
+}
 .harmonias-img{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*-------------------categorias-------------------*/
+
+.categorias{
+    margin-top: 200px;
+    height: 400px;
+    
+}
+
+.categorias-tipo{
+    display:inline-block;
+    padding: 50px;
+
+}
+img.categorias-foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+
+/*-------------------------- -------------------FOOTER------------------- --------------------------*/
+footer{
+    height: 150px;
+    bottom: 0px;
+    background-color: antiquewhite;
+}
+
