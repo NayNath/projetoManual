@@ -28,13 +28,14 @@ ul{
     display: inline-block;
     margin-left: 500px;
 }
-li{
+li.nav{
     display: inline-block;
     font-size: 20px;
     padding: 35px;
 }
 a{
     color: rgb(253, 254, 255);
+    text-decoration: none;
 }
 
 /*-------------------------- -------------------MAIN------------------- --------------------------*/
@@ -154,11 +155,37 @@ input{
 
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
-    height: 120px;
+    height: 220px;
     background-color: rgb(0, 0, 0);
-}
-p.rodape{
-    padding-top: 90px;
-    text-align: center;
     
+}
+ul{
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+li.rodape-li, li.rodape-li-titulo{
+    font-size: 20px;
+    padding-top: 5px;
+}
+li.rodape-li-titulo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.redes-sociais{
+    display:inline-block;
+    margin-left: 1000px;
+
+}
+.redes-img{
+    width: 25px;
+    padding: 5px;
+}
+
+p.rodape{
+    padding-top: 5px;
+    text-align: center;
 }
