@@ -74,6 +74,8 @@ h1{
     margin-right: 150px;
     display: flex;
     justify-content:space-around;
+
+    text-align: center;
 }
 .harmonias-img{
     width: 180px;
@@ -82,7 +84,6 @@ h1{
 }
 h4{
     font-size: 20px;
-    text-align: center;
 }
 
 /*-------------------categorias-------------------*/
@@ -90,20 +91,63 @@ h4{
 .categorias{
     margin-top: 200px;
     height: 400px;
+
+    
     
 }
-
+.categorias-tipos{
+    display: flex;
+    justify-content: center;
+}
 .categorias-tipo{
     display:inline-block;
-    padding: 50px;
+    padding: 30px;
 
 }
 img.categorias-foto{
     width: 200px;
     height: 200px;
     border-radius: 8px;
+    
 }
 
+
+/*-------------------MAIS PROCURADOS-------------------*/
+.mais-procurados{
+    margin-top: 200px;
+
+
+}
+.filera{
+    display: flex;
+    justify-content: center;
+}
+.vinho{
+    background-color:rgb(24, 24, 24);
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    margin: 15px 20px;
+    display: inline-block;
+    border-radius: 8px;
+
+}
+
+.vinho-img{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+
+    padding-bottom: 50px;
+}
+
+input{
+    background-color: #580A20;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
 
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
