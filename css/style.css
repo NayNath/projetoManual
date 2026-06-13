@@ -9,7 +9,7 @@ body{
 
 /*-------------------------- -------------------HEADER------------------- --------------------------*/
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1, 1, 1);
     height: 120px;
     top: 0px;
     position: sticky;
@@ -123,7 +123,7 @@ img.categorias-foto{
     height: 300px;
     width: 210px;
     padding: 30px;
-    margin: 15px 20px;
+    margin: 15px 25px;
     display: inline-block;
     border-radius: 8px;
 
@@ -165,7 +165,7 @@ input.botton-ver-mais{
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
     height: 220px;
-    background-color: rgb(0, 0, 0);
+    background-color:  rgb(1, 1, 1);;
     
 }
 ul{
