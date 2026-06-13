@@ -43,6 +43,8 @@ a{
 main{
     height: 3000px;
     margin-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .linha{
@@ -57,7 +59,7 @@ main{
     justify-content: center;
 }
 .banner-img{
-    width: 1900px;
+    width: auto;
 }
 
 /*-------------------HARMONIA-------------------*/
@@ -71,11 +73,8 @@ h1{
     text-align: center;
 }
 .harmonias-item{
-    margin-left: 150px;
-    margin-right: 150px;
     display: flex;
-    justify-content:space-around;
-
+    justify-content:space-between;
     text-align: center;
 }
 .harmonias-img{
@@ -93,9 +92,6 @@ h4{
 .categorias{
     margin-top: 200px;
     height: 400px;
-
-    
-    
 }
 .categorias-tipos{
     display: flex;
@@ -117,8 +113,6 @@ img.categorias-foto{
 /*-------------------MAIS PROCURADOS-------------------*/
 .mais-procurados{
     margin-top: 200px;
-
-
 }
 .filera{
     display: flex;
@@ -145,13 +139,28 @@ p.preco{
     margin-top: 10px;
 }
 
-input{
+input.botton{
     background-color: #580A20;
     color: aliceblue;
     padding: 10px;
     margin-top: 10px;
     border-radius: 8px;
+    border: none;
 }
+div.ver-mais{
+    display: flex;
+    justify-content: center;   
+    margin-top: 35px;
+}
+input.botton-ver-mais{
+    background-color: #580A20;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
 
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
