@@ -46,14 +46,15 @@ a{
 main{
     height: 3000px;
     margin-bottom: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .linha{
     background-color: aliceblue;
-    height: 1px;
+    height: 2px;
     width: auto;
+    margin-top: 50px;
 }
 
 /*-------------------BANNER-------------------*/
@@ -67,7 +68,7 @@ main{
 
 /*-------------------HARMONIA-------------------*/
 .harmonias{
-    margin-top: 100px;
+    margin-top: 50px;
     height: 300px;
 }
 h1{
@@ -168,14 +169,17 @@ input.botton-ver-mais{
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
     height: 220px;
-    background-color:  rgb(1, 1, 1);;
+    background-color:  rgb(1, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
     
 }
-ul{
-    display: inline-block;
-    margin-left: 500px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.logo-rodape-img{
+    height: 150px;
+}
+footer ul{
     list-style-type: none;
 }
 li.rodape-li, li.rodape-li-titulo{
@@ -198,6 +202,6 @@ li.rodape-li-titulo{
 }
 
 p.rodape{
-    padding-top: 5px;
-    text-align: center;
+    display: flex;
+    justify-content: end;
 }
