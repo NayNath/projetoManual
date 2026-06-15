@@ -166,6 +166,32 @@ input.botton-ver-mais{
 }
 
 
+/*-------------------FILTRO-------------------*/
+div.filtro{
+    background-color:rgb(24, 24, 24);
+    margin-top: 50px;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 8px;
+
+    width: 200px;
+}
+div.categorias-filtro{
+    margin-bottom: 50px;
+}
+input.checkbox{
+    display: inline-block;
+}
+div.opçoes-filtro{
+    display: inline-block;
+}
+
+div.catalogo{
+    display: inline-block;
+    float: right;
+}
+
+
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
 footer{
     height: 220px;
