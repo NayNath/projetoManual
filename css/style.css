@@ -44,7 +44,6 @@ a{
 /*-------------------------- -------------------MAIN------------------- --------------------------*/
 
 main{
-    background-color: #580A20;
     height: 3000px;
     margin-bottom: 30px;
     margin-left: 200px;
@@ -70,7 +69,7 @@ main{
 /*-------------------HARMONIA-------------------*/
 .harmonias{
     margin-top: 50px;
-    height: 300px;
+    margin-bottom: 150px;
 }
 h1{
     font-size: 40px;
@@ -81,6 +80,7 @@ h1{
     display: flex;
     justify-content:space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 .harmonias-img{
     width: 180px;
@@ -96,11 +96,11 @@ h4{
 
 .categorias{
     margin-top: 200px;
-    height: 400px;
 }
 .categorias-tipos{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categorias-tipo{
     display:inline-block;
@@ -118,10 +118,14 @@ img.categorias-foto{
 /*-------------------MAIS PROCURADOS-------------------*/
 .mais-procurados{
     margin-top: 200px;
+    
+    
 }
 .filera{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .vinho{
     background-color:rgb(24, 24, 24);
@@ -201,7 +205,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
-    
 }
 .logo-rodape-img{
     height: 150px;
