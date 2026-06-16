@@ -54,7 +54,7 @@ main{
     background-color: #580A20;
 }
 main.produtos{
-    flex-direction:row
+    flex-direction:row;
 }
 
 /*-------------------BANNER-------------------*/
@@ -198,11 +198,30 @@ h5{
     margin-left: 10px;
 }
 
-/*-------------------BANNER CONTATOS-------------------*/
+/*-------------------CONTATOS-------------------*/
+aside.contatos{
+    background-color: blue;
+}
+div.card-contato{
+    margin-top: 50px;
+    padding: 30px;
+    border: #fffafc solid 5px;
+    
+    
+    background-color: rgb(154, 107, 46);
+}
+
+img.contato-img{
+    width: 25px;
+    height: 30px;
+}
 
 
-
-
+section.contatos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
