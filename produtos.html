@@ -17,183 +17,180 @@
                 <li class="nav"><a href="index.html">Home</a></li>
                 <li class="nav"><a href="produtos.html">Produtos</a></li>
                 <li class="nav"><a href="">Países</a></li>
-                <li class="nav"><a href="">Contatos</a></li>
+                <li class="nav"><a href="contatos.html">Contatos</a></li>
             </ul>
         </nav>
     </header> 
 <!-- -------------------------MAIN------------------------- -->
-    <main>
+    <main class="produtos">
 <!-- ---------------FILTRO--------------- -->
-        <div class="filtro">
-            <div class="categorias-filtro">
-                <h3 class="titulo-filtro">Categorias</h3>
-                <a href="">
-                    <input class="checkbox" type="checkbox" name="" id="paises">
-                    <h5>Vinhos</h5>
-                </a>
-                <a href="">
-                    <input class="checkbox" type="checkbox" name="" id="paises">
-                    <h5>Premium</h5>
-                </a>
-                <a href="">
-                    <input class="checkbox" type="checkbox" name="" id="paises">
-                    <h5>Acessórios</h5>
-                </a>
-                <a href="">
-                    <input class="checkbox" type="checkbox" name="" id="paises">
-                    <h5>Mais procurados</h5>
-                </a>
-            </div>
+        <aside>
+            <div class="filtro">
+                <div class="categorias-filtro">
+                    <h3 class="titulo-filtro">Categorias</h3>
+                    <a class="checkbox" href="">
+                        <input  type="checkbox" name="" id="catego">
+                        <h5>Vinhos</h5>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="catego">
+                        <h5>Premium</h5>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input  type="checkbox" name="" id="catego">
+                        <h5>Acessórios</h5>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input  type="checkbox" name="" id="catego">
+                        <h5>Mais procurados</h5>
+                    </a>
+                </div>
 
-            <div class="categorias-filtro">
-                <h3 class="titulo-filtro">Países</h3>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Alemanha</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Argentina</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Brasil</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Chile</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Espanha</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>França</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Itália</h5>
-                    </div>
-                </a>
-                <a href="">
-                    <input type="checkbox" name="" id="">
-                    <div class="opçoes-filtro">
-                        <h5>Portugal</h5>
-                    </div>
-                </a>
+                <div class="categorias-filtro">
+                    <h3 class="titulo-filtro">Países</h3>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Alemanha</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Argentina</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Brasil</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Chile</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Espanha</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>França</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Itália</h5>
+                        </div>
+                    </a>
+                    <a class="checkbox" href="">
+                        <input type="checkbox" name="" id="paises">
+                        <div class="opçoes-filtro">
+                            <h5>Portugal</h5>
+                        </div>
+                    </a>
 
+                </div>
             </div>
-        </div>
+        </aside>
 
 <!-- ---------------MAIS PROCURADOS--------------- -->
-        <div class="catalogo">
-            <h1></h1>
+        <section>
+            <div class="catalogo">
+                <h1></h1>
+                <div class="filera">
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho1.png" alt="">
+                        <h4>Canção</h4>
+                        <p class="preco">R$29,50</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
 
-            <div class="filera">
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho1.png" alt="">
-                    <h4>Canção</h4>
-                    <p class="preco">R$29,50</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho2.png" alt="">
+                        <h4>Gran Enemigo</h4>
+                        <p class="preco">R$445,68</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
 
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho2.png" alt="">
-                    <h4>Gran Enemigo</h4>
-                    <p class="preco">R$445,68</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>
-
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho3.png" alt="">
-                    <h4>Angelica Zapata </h4>
-                    <p class="preco">R$234,99</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho4.png" alt="">
-                    <h4>Los Incas Carmenere</h4>
-                    <p class="preco">R$39,90</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho3.png" alt="">
+                        <h4>Angelica Zapata </h4>
+                        <p class="preco">R$234,99</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho4.png" alt="">
+                        <h4>Los Incas Carmenere</h4>
+                        <p class="preco">R$39,90</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho5.png" alt="">
+                        <h4>Assobio Douro Esporão</h4>
+                        <p class="preco">R$75,90</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho6.png" alt="">
+                        <h4>Esporão Reserva</h4>
+                        <p class="preco">R$255,00</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>   
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho7.png" alt="">
+                        <h4>Bico Amarelo Esporão</h4>
+                        <p class="preco">R$74,95</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho8.png" alt="">
+                        <h4>Português Ciconia</h4>
+                        <p class="preco">R$55,90</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>    
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho9.png" alt="">
+                        <h4>Alma Negra</h4>
+                        <p class="preco">R$191,00</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>    
+                    </div>
+                    <div class="vinho">
+                        <img class="vinho-img" src="img/vinho10.png" alt="">
+                        <h4>Luminous Rosé</h4>
+                        <p class="preco">R$ 66,90</p>
+                        <form action="produtos.html">
+                            <input class="botton" type="submit" value="Comprar">
+                        </form>    
+                    </div>
                 </div>
             </div>
-
-            <div class="filera"> 
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho5.png" alt="">
-                    <h4>Assobio Douro Esporão</h4>
-                    <p class="preco">R$75,90</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho6.png" alt="">
-                    <h4>Esporão Reserva</h4>
-                    <p class="preco">R$255,00</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>   
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho7.png" alt="">
-                    <h4>Bico Amarelo Esporão</h4>
-                    <p class="preco">R$74,95</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>
-                </div>
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho8.png" alt="">
-                    <h4>Português Ciconia</h4>
-                    <p class="preco">R$55,90</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>    
-                </div>
-            </div>
-
-            <div class="filera"> 
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho9.png" alt="">
-                    <h4>Alma Negra</h4>
-                    <p class="preco">R$191,00</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>    
-                </div>
-                <div class="vinho">
-                    <img class="vinho-img" src="img/vinho10.png" alt="">
-                    <h4>Luminous Rosé</h4>
-                    <p class="preco">R$ 66,90</p>
-                    <form action="produtos.html">
-                        <input class="botton" type="submit" value="Comprar">
-                    </form>    
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
 <!-- -------------------------FOOTER------------------------- -->
