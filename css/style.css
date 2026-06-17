@@ -37,6 +37,7 @@ header{
     position: sticky;
 
     display: flex;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -61,6 +62,10 @@ li.nav{
 a{
     color: rgb(253, 254, 255);
     text-decoration: none;
+}
+a:hover{
+    color:#580A20;
+;
 }
 
 /*-------------------------- -------------------MAIN------------------- --------------------------*/
