@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Contatos</title>
 </head>
-<body>
-    <!-- -------------------------MAIN------------------------- -->
+<body class="contatos">
+<!-- -------------------------HEADER------------------------- -->
     <header>
         <div class="logo">
             <img class="logo-img"src="img/logo.png" alt="">
@@ -23,53 +23,72 @@
     </header> 
 
 <!-- -------------------------MAIN------------------------- -->
-    <main class="contatos">
-<!-- ---------------BANNER--------------- -->
+    <main >
+<!-- ---------------BANNER--------------- 
         <div class="banner">
             <img src="img/bannerContatos.jpg" alt="">
-        </div>
+        </div>-->
 <!-- ---------------CONTATOS--------------- -->
-        <section class="contatos">
-            <div class="card-contato">
-                <h2> <img class="contato-img" src="img/iconeLocal.png" alt=""> Distribuidora</h2>
-                <p>Av. Lugar Nenhum, 184 - São Paulo, SP</p>
-            </div>
-            <div class="card-contato">
-                
-                <h2><img class="contato-img" src="img/iconeEmail.png" alt=""> Email</h2>
-                <p>winner.vinhos@gmail.com</p>
-            </div>
-            <div class="card-contato">
-                <h2><img class="contato-img" src="img/iconeTelefone.png" alt=""> Telefone</h2>
-                <p>(00)00000-0000</p>
-            </div>
-        </section>
-        <section class="contatos">
-            <form action="">
-                <div class="formulario-contato">
-                    <label for="">Nome:</label>
-                    <input type="text" id="nome">
+    <section class="container-contatos">
 
-                    <label for="">Email:</label>
-                    <input type="email" id="nome">
-
-                    <label for="">O que deseja relatar?</label>
-                    <input type="radio" name="" id="problema-entrega">
-                    <label for="">Problemas na entrega do produto</label>
-                    <input type="radio" name="" id="problema-produto">
-                    <label for="">Problemas no produto</label>
-                    <input type="radio" name="" id="problema-pagamento">
-                    <label for="">Problemas no pagamento</label>
-                    <input type="radio" name="" id="problema-plataforma">
-                    <label for="">Problemas na plataforma</label>
-                    <input type="radio" name="" id="sugestoes">
-                    <label for="">Sugestões de melhoramento</label>
-
-
-                    <label for="">Secreva aqui seu comentario:</label>
-                    <input type="email" id="nome">
+            <section class="contatos">
+                <div class="card-contato">
+                    <h3> <img class="contato-img" src="" alt=""> Distribuidora</h3>
+                    <p>Av. Lugar Nenhum, 184 - São Paulo, SP</p>
                 </div>
-            </form>
+                <div class="card-contato">
+                    <h3><img class="contato-img" src="" alt=""> Email</h3>
+                    <p>winner.vinhos@gmail.com</p>
+                </div>
+                <div class="card-contato">
+                    <h3><img class="contato-img" src="" alt=""> Telefone</h3>
+                    <p>(00)00000-0000</p>
+                </div>
+            </section>
+
+            <section class="fale-conosco">
+                <form action="">
+                    <div class="formulario-contato">
+                        <h3 id="">Nos de o seu relato</h3>
+                        <div class="campo-formulario">
+                            <label for="" id="nome">Nome:</label>
+                            <input class="consco"type="text" id="nome">
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="" id="email">Email:</label>
+                            <input class="consco" type="email" id="email">
+                        </div>
+                        <div class="opsao-relato">
+                            <label for="" id="relato">O que deseja relatar?</label>
+                            <div class="campo-formulario">
+                                <input type="radio" name="" id="problema-entrega">
+                                <label class="opsao" for="">Problemas na entrega do produto</label>
+                            </div>                           
+                            <div class="campo-formulario">
+                                <input type="radio" name="" id="problema-produto">
+                                <label for="">Problemas no produto</label>
+                            </div>
+
+                            <div class="campo-formulario">
+                                <input type="radio" name="" id="problema-pagamento">
+                                <label for="">Problemas no pagamento</label>
+                            </div>
+                            <div class="campo-formulario">
+                                <input type="radio" name="" id="problema-plataforma">
+                                <label for="">Problemas na plataforma</label>
+                            </div>
+                            <div class="campo-formulario">
+                                <input type="radio" name="" id="sugestoes">
+                                <label for="">Sugestões de melhoramento</label>
+                            </div>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="" id="comentario">Secreva aqui seu comentario:</label>
+                            <input class="consco consco-texto" type="email" id="comentario">
+                        </div>
+                    </div>
+                </form>
+            </section>
         </section>
 
     </main>

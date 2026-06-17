@@ -7,6 +7,28 @@ body{
     color: rgb(253, 254, 255);
 }
 
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+h5{
+    margin-left: 10px;
+}
 /*-------------------------- -------------------HEADER------------------- --------------------------*/
 header{
     background-color: rgb(1, 1, 1);
@@ -50,8 +72,6 @@ main{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-
-    background-color: #580A20;
 }
 main.produtos{
     flex-direction:row;
@@ -74,11 +94,7 @@ main.produtos{
     margin-top: 50px;
     margin-bottom: 150px;
 }
-h1{
-    font-size: 40px;
-    margin-bottom: 50px;
-    text-align: center;
-}
+
 .harmonias-item{
     display: flex;
     justify-content:space-between;
@@ -90,10 +106,7 @@ h1{
     height: 180px;
     border-radius: 50%;
 }
-h4{
-    margin-top: 10px;
-    font-size: 20px;
-}
+
 
 /*-------------------categorias-------------------*/
 
@@ -130,7 +143,6 @@ img.categorias-foto{
 }
 .vinho{
     background-color:rgb(24, 24, 24);
-    height: 300px;
     width: 210px;
     padding: 30px;
     margin: 15px 20px;
@@ -144,14 +156,14 @@ img.categorias-foto{
     border-radius: 8px ;
 }
 p.preco{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 input.botton{
     background-color: #580A20;
     color: aliceblue;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 8px;
     border: none;
 }
@@ -194,35 +206,86 @@ a.checkbox{
     padding: 10px;
     font-size: 18px;
 }
-h5{
-    margin-left: 10px;
-}
+
 
 /*-------------------CONTATOS-------------------*/
-aside.contatos{
-    background-color: blue;
+body.contatos{
+    background-image: url("../img/imgFundo.jpg");
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
-div.card-contato{
+section.container-contatos{
     margin-top: 50px;
-    padding: 30px;
-    border: #fffafc solid 5px;
-    
-    
-    background-color: rgb(154, 107, 46);
+    display: flex;
+    position: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-img.contato-img{
-    width: 25px;
-    height: 30px;
+h3#fale-conosco{
+    text-align: start;
 }
-
 
 section.contatos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 25%;
+    margin-left: 20px;
     flex-wrap: wrap;
+    
+}
+div.card-contato{
+    margin: 0px 0px 40px ;
+    padding: 20px;
+    border: #fffafc solid 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+img.contato-img{
+    width: 25px;
+    height: 30px;
+    filter: invert();
 }
 
+section.fale-conosco{
+    padding: 20px 50px;
+    margin-left: 50px;
+    background-color:rgba(24, 24, 24, 0.561);
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.campo-formulario{
+    padding: 5px 0px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+#nome,#email,#relato,#comentario{
+    font-weight: bolder;
+}
+input.consco{
+    border-radius: 3px;
+    width: 100%;
+
+}
+div.opsao-relato{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.consco-texto{
+    margin-top: 10px;
+    height: 100px;
+}
 
 
 
