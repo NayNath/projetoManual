@@ -37,7 +37,7 @@ header{
     position: sticky;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -51,7 +51,8 @@ div.logo{
     height: 100px;
 }
 nav{
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 li.nav{
@@ -64,8 +65,21 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:#580A20;
-;
+    color: #580A20;
+}
+div.usuario{
+    display: flex;
+    flex-direction: row;
+}
+img.usuario{
+    height: 30px;
+    filter: invert(100%);
+    padding: 50px 20px ;
+}
+img.usuario:hover{
+    background-color: #580A20;
+    height: 30px;
+    filter: invert(0%);
 }
 
 /*-------------------------- -------------------MAIN------------------- --------------------------*/
