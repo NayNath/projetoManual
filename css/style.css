@@ -166,7 +166,7 @@ p.preco{
 
 input.botton{
     background-color: #580A20;
-    color: aliceblue;
+    color: #fffafc;
     padding: 10px;
     margin-top: 20px;
     border-radius: 8px;
@@ -245,17 +245,13 @@ section.contatos{
 div.card-contato{
     margin: 0px 0px 40px ;
     padding: 20px;
-    border: #fffafc solid 5px;
+    background-color:rgba(24, 24, 24, 0.561);
+    border: #fffafc solid 2px;
     border-radius: 8px;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-
-
 }
 img.contato-img{
-    width: 25px;
-    height: 30px;
+    height: 50px;
     filter: invert();
 }
 
@@ -265,8 +261,14 @@ section.fale-conosco{
     background-color:rgba(24, 24, 24, 0.561);
     border-radius: 8px;
     margin-right: 20px;
-    width: 60%;
     display: flex;
+    justify-content: center;
+    width: 60%;
+}
+div.formulario-contato{
+    display: flex;
+    flex-direction: column;
+    width: auto;
     flex-wrap: wrap;
 }
 .campo-formulario{
@@ -276,10 +278,17 @@ section.fale-conosco{
 }
 #nome,#email,#relato,#comentario{
     font-weight: bolder;
+    display: flex;
 }
+
 input.consco{
-    border-radius: 3px;
-    width: 100%;
+    border-radius: 5px;
+    width: 350px;
+    border: none;
+    border: #fffeff solid 2px;
+    background-color: rgba(11, 11, 11, 0.366);
+    height: 25px;
+    margin: 0px 20px;
 
 }
 div.opsao-relato{
@@ -287,12 +296,23 @@ div.opsao-relato{
     flex-direction: column;
     font-size: 20px;
 }
-.consco-texto{
+input.consco-texto{
     margin-top: 10px;
     height: 100px;
 }
-
-
+.botton-enviar{
+    background-color: #580A20;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    color: #fffafc;
+    width: 100%;
+}
+.botton-enviar:hover{
+    background-color: #050404ed;
+}
 
 
 /*-------------------------- -------------------FOOTER------------------- --------------------------*/
